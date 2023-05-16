@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <button type="button" onclick="myfunction()">Clickme</button>
+</body>
+
+</html>
+
+    <script>
+        function myfunction() {
+            console.log("Button Clicked");
+        }
+    </script>
+</head>
+<body>
+    <h1>THIS IS HEADING</h1>
+    <p id="paral"></p>
+    <button type="button" onclick="myfunction()">Clickme</button>
+    <script>
+        document.getElementById("paral").innerHTML="this is a new para"
+    </script>
+    <script>
+        function myFunction(a,b) {
+            return a + b;
+        }
+        document.getElementById("demo").innerHTML = myfunction(12,8);
+    </script>
+    <script>
+        var number=prompt("enter a number");
+        const result =(number>=0)?"Positive":"Negative";
+        document.write(result);
+    </script>
+</body>
+</html>      

@@ -1,0 +1,55 @@
+/* Global style */
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: #333;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.logo img{
+    height: 40px;
+}
+.menu {
+    display: flex;
+    justify-content: felx-end;
+    align-items: center;
+}
+.menu li {
+    margin: 0 10px;
+    list-style: none;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.menu li a:hover {
+    color: rgb(red, green, blue);
+}
+.download{
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 5px;
+}
+.download:hover{
+    background-color: #5e5e5e;
+}
